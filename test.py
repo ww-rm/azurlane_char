@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     existed = []
     for shipd in ASSETS_DIR.iterdir():
-        if not shipd.is_dir() or shipd.name.startswith("."):
+        if not shipd.is_dir():
             continue
 
         shipname = shipd.name
