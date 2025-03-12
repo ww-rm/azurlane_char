@@ -7,13 +7,15 @@ permalink: /index.html
 
 这是碧蓝航线小人模型资源仓库.
 
-点击返回网站首页 [https://ww-rm.github.io/](https://ww-rm.github.io/)
+点击返回[网站首页](/).
 
 ## 使用方法
 
 ### 获取资源索引
 
-请求: `/azurlane_char/index.json`
+请求:
+
+`/azurlane_char/index.json`
 
 响应:
 
@@ -52,10 +54,18 @@ class ShipData(RootModel):
     root: Dict[str, Ship]
 ```
 
+访问测试:
+
+- [/azurlane_char/index.json](/azurlane_char/index.json)
+
 ### 加载资源文件
 
-请求: `/azurlane_char/<shipName>/<文件名>`
+请求:
 
-## Acknowledgements
+`/azurlane_char/<shipName>/<文件名>`
 
-- [AzurLaneData](https://github.com/AzurLaneTools/AzurLaneData)
+访问测试:
+
+- [/azurlane_char/lafei/lafei.atlas](/azurlane_char/lafei/lafei.atlas)
+- [/azurlane_char/lafei/lafei.skel](/azurlane_char/lafei/lafei.skel)
+- [/azurlane_char/lafei/lafei.png](/azurlane_char/lafei/lafei.png)
