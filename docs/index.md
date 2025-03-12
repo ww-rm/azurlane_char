@@ -9,9 +9,7 @@ permalink: /index.html
 
 点击返回[网站首页](/).
 
-## 使用方法
-
-### 获取资源索引
+## 获取资源索引
 
 请求:
 
@@ -58,7 +56,7 @@ class ShipData(RootModel):
 
 - [/azurlane_char/index.json](/azurlane_char/index.json)
 
-### 加载资源文件
+## 加载资源文件
 
 请求:
 
@@ -66,6 +64,6 @@ class ShipData(RootModel):
 
 访问测试:
 
-- [/azurlane_char/lafei/lafei.atlas](/azurlane_char/lafei/lafei.atlas)
 - [/azurlane_char/lafei/lafei.skel](/azurlane_char/lafei/lafei.skel)
+- [/azurlane_char/lafei/lafei.atlas](/azurlane_char/lafei/lafei.atlas)
 - [/azurlane_char/lafei/lafei.png](/azurlane_char/lafei/lafei.png)
